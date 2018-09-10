@@ -7,7 +7,7 @@ module.exports = function() {
       files: []
   };
 //动态生成10条新闻数据
-  for (var i = 0; i < 10000; i++) {
+  for (var i = 0; i < 100; i++) {
     data.files[i] = [];
     for (var j = 0; j< 20; j++) {
       data.files[i].push({

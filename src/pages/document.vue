@@ -1,8 +1,8 @@
 <template>
-  <Table :tableData="mockData" :pageSize="12"></Table>
+  <Document :tableData="mockData"></Document>
 </template>
 <script>
-import Table from '@/components/Table'
+import Document from '@/components/Document'
 import mockData from '@/mock/mock.js'
 export default {
   data() {
@@ -11,7 +11,7 @@ export default {
     }
   },
   components:{
-    Table
+    Document
   }
 }
 </script>
