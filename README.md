@@ -1,30 +1,8 @@
-# vue-app
+# document
 
-> a vue project
+> 用vue + iscroll模拟的腾讯文档滚动表格，向上滚动的时候headers固定，向左滚动的时候左边固定，并且可以无限滚动
 
-## Build Setup
-
-``` bash
-# install dependencies
-npm install
-
-# serve with hot reload at localhost:8080
+## start
 npm run dev
 
-# build for production with minification
-npm run build
 
-# build for production and view the bundle analyzer report
-npm run build --report
-
-# run unit tests
-npm run unit
-
-# run e2e tests
-npm run e2e
-
-# run all tests
-npm test
-```
-
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
